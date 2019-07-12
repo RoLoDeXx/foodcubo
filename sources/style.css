@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
 
 .carousel-inner img {
@@ -31,8 +32,9 @@
 .jumbotron {
   margin-top: 5rem;
   margin-bottom: 2rem;
-  background-color: #efefef;
+  background-color: #ffffff;
   border-radius: 5px;
+  border: 1.25px solid #660c0c;
 }
 
 .searchBtn {
@@ -40,7 +42,38 @@
   color: white;
 }
 
+footer {
+  color: #aaa;
+  background: #263238;
+}
+
 #siteName {
   font-family: "Russo One", sans-serif;
   color: #660c0c;
+}
+
+.list-unstyled > li > a {
+  color: #efefef;
+}
+
+.card-body img {
+  /* width: 100%; */
+  height: 8rem;
+}
+
+.card {
+  border: none;
+}
+
+.card-text {
+  font-family: "Varela Round", sans-serif;
+}
+
+.card-group {
+  margin-bottom: 2rem;
+}
+
+iframe {
+  width: 100%;
+  height: 25rem;
 }
